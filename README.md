@@ -12,7 +12,7 @@
 - [x] 50. pow(x, n)
 
 ## Solution Rationale
-- (4) Median of Two Sorted Arrays &rarr; Inserted two vectors into a larger vector and used `stl` sorting algorithm on it.
+- #4 Median of Two Sorted Arrays &rarr; Inserted two vectors into a larger vector and used `stl` sorting algorithm on it.
 - (35) Search Insert Position &rarr; Binary search to find if the element is already there **or if it is not, return `lowerBound` since it holds the index at which element should be inserted in**.
 - (374) Guess Number Higher or Lower &rarr; Binary search with extra steps.
 - (704) Binary Search &rarr; Binary search.
