@@ -2,14 +2,18 @@
 
 ## Progress
 ### Day 1 (9/4/2025)
-- [x] 4. Median of Two Sorted Arrays
-- [x] 35. Search Insert Position
-- [x] 374. Guess Number Higher or Lower
-- [x] 704. Binary Search
+- [x] 4. Median of Two Sorted Arrays **Hard**
+- [x] 35. Search Insert Position **Easy**
+- [x] 374. Guess Number Higher or Lower **Easy**
+- [x] 704. Binary Search **Easy**
 ### Day 2 (10/4/2025)
-- [x] 744. Find Smallest Letter Greater Than Target
+- [x] 744. Find Smallest Letter Greater Than Target **Easy**
 ### Day 3 (11/4/2025)
-- [x] 50. pow(x, n)
+- [x] 50. pow(x, n) **Medium**
+### Day 4 (12/4/2025)
+- [x] 2. Add Two Numbers **Medium**
+- [x] 231. Power of Two **Easy**
+- [x] 191. Number of 1 Bits **Easy**
 
 ## Solution Rationale
 - #4 Median of Two Sorted Arrays &rarr; Inserted two vectors into a larger vector and used `stl` sorting algorithm on it.
@@ -18,3 +22,6 @@
 - #704 Binary Search &rarr; Binary search.
 - #744 Find Smallest Letter Greater Than Target &rarr; Binary search but with letters.
 - #50 pow(x, n) &rarr; Exponentiation by squaring with recursion + wrapper function to handle negative powers.
+- #2 Add Two Numbers &rarr; Recursion to handle base cases and carry + utilized Linked Lists properties.
+- #231 Power of Two &arr; Solved it twice: using recursion & bit masking then using a single bit manipulation statement. Both run blazingly fast but the single statement uses slightly lower memory.
+- #191 Number of 1 Bits &rarr; Recursion and bit masking. Similar to my recursive approach in #231 but even easier.
