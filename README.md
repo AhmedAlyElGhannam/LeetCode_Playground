@@ -14,7 +14,16 @@
 - [x] 2. Add Two Numbers **Medium**
 - [x] 231. Power of Two **Easy**
 - [x] 191. Number of 1 Bits **Easy**
-
+### Day 5 (13/4/2025)
+- [x] 148. Sort List **Easy**
+- [x] 190. Reverse Bits **Easy**
+- [x] 326. Power of Three **Easy**
+- [x] 342. Power of Four **Easy**
+### Day 6 (14/4/2025)
+- [x] 143. Reorder List **Medium**
+- [x] 206. Reverse Linked List **Easy**
+- [x] 2807. In Greatest Common Divisor in Linked List **Medium**
+- [x] 876. Middle of The Linked List **Easy**
 ## Solution Rationale
 - #4 Median of Two Sorted Arrays &rarr; Inserted two vectors into a larger vector and used `stl` sorting algorithm on it.
 - #35 Search Insert Position &rarr; Binary search to find if the element is already there **or if it is not, return `lowerBound` since it holds the index at which element should be inserted in**.
